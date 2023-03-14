@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(235, 180, 68);
+    margin: 50px 2%;
+}
+.container-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 30px 0;
+    color: white;
+    text-shadow: 3px 1px black;
+}
+.inputcol {
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 55% 10%;
+    justify-content: center;
+    margin-top: 10px;
+}
+.textarea {
+    min-height: 50px;
+    height: 50px;
+    border-color: #333;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+
+
+.buttoninput {
+    border-radius: 10px;
+    border-color: #333;
+    background-color: rgb(239, 244, 171);
+    font-size: 30px;
+}
+
+.buttoninput:hover {
+    background-color: #a0e039;
+    color: white;
+}
+
+.todolist {
+    margin-top: 5px;
+}
+
+.luettelo {
+    display: grid;
+    grid-template-columns: 55% 5% 5%;
+    justify-content: center;
+    margin-bottom: 1.5px;
+}
+.item, .check-button, .trash-button {
+    border: none;
+    min-height: 50px;
+    padding: 10px 10px;
+}
+.item {
+    display: grid;
+    align-content: center;
+    font-size: 20px;
+    background-color: rgb(239, 244, 171)
+}
+.check-button, .trash-button {
+    font-size: 15px;
+}
+.trash-button {
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(250, 39, 39);
+}
+.check-button {
+    background-color: #bcec6e;
+}
+.check-button:hover {
+    background-color: #a8f748;
+    color: white;
+}
+.trash-button:hover {
+    background-color: #d11616;
+    color: white;
+}
+
+.checklist {
+    text-decoration: line-through;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
+
+button, .check-button, .trash-button {
+    cursor: pointer;
+}
